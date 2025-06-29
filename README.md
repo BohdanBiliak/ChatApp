@@ -47,23 +47,25 @@ A modern full-stack messaging application that supports **real-time communicatio
 
 ## 📁 Project Structure
 
+
 ChatApp/
 ├── client-app/ # React frontend (Vite)
 │ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── hooks/
-│ │ └── stores/ # Zustand state
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Route-level components
+│ │ ├── hooks/ # Custom React hooks
+│ │ └── stores/ # Zustand global state
 │ └── tailwind.config.js
 │
-├── server-app/ # Express backend
+├── server-app/ # Express backend with Socket.IO
 │ ├── src/
-│ │ ├── controllers/
-│ │ ├── models/
-│ │ ├── routes/
-│ │ ├── middleware/
-│ │ └── utils/
+│ │ ├── controllers/ # Request logic handlers
+│ │ ├── models/ # Mongoose models
+│ │ ├── routes/ # Express routes
+│ │ ├── middleware/ # Auth and error middleware
+│ │ └── utils/ # Utility/helper functions
 │ └── .env
+│
 └── README.md
 
 ## ⚙️ Getting Started
