@@ -66,12 +66,6 @@ ChatApp/
 │ └── .env
 └── README.md
 
-yaml
-Copy
-Edit
-
----
-
 ## ⚙️ Getting Started
 
 ### 🧩 Prerequisites
@@ -84,9 +78,7 @@ Edit
 cd client-app && npm install
 cd ../server-app && npm install
 🚀 2. Start Development Servers
-bash
-Copy
-Edit
+
 # Backend
 cd server-app && npm run dev
 
@@ -95,9 +87,6 @@ cd ../client-app && npm run dev
 🔐 Environment Configuration
 Create a .env file inside /server-app:
 
-env
-Copy
-Edit
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/chatapp
 JWT_SECRET=supersecretkey
 CLOUDINARY_CLOUD_NAME=your-cloud-name
